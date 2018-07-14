@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <style>
+            /*  internal style*/
+
+        /* tag name selector*/    
+        p{
+            color: blue
+        }
+        
+        /* class name selector*/
+        .hello{
+            color: antiquewhite
+        }
+
+
+        /* class slector for particular tag*/
+        p.hell{
+
+        }
+
+        /*selects all p in div */
+        div p{
+            color: blueviolet
+        }
+
+
+        /* searches for tag which have para class*/
+        .para p{
+
+        color: aquamarine
+        }
+
+        /* searches p tag in which in which para class is assigned*/
+         p .para{
+             color: brown
+        }
+
+        /*  selects all p tags which are immediate child of div*/
+        div > p{
+            color:gold        }
+
+        /* selects all p tags which ;lie immediately after div*/
+        div +p{
+            color: aqua
+        }
+        </style>
+
+         
+       
+
+<link rel="stylesheet" href="./e.html">
+    </head>
+    <body>
+        <!--inline style sheet-->
+
+        <p style="color: red">
+            this is red
+        </p>
+        <p class="hello">
+            hey
+        </p>
+
+
+        <div>
+            <p>helll
+
+            </p>
+            <p>
+                p iin div
+            </p>
+            <p>hey</p>
+            <div>
+                    <p>
+                        p iin div
+                    </p>
+                </div>
+        </div>
+    </body>
+</html>
+
+

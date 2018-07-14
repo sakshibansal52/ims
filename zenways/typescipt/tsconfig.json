@@ -1,0 +1,19 @@
+// this is a inbuilt file which we n]made namelt tsconfig.json
+
+{
+    "compilerOptions": {
+        "removeComments" : true,
+        "sourceMap" : true
+
+    },
+    "files" : [
+        "first.ts"
+],
+"include" : [
+    //folder names
+],
+"exclude" : [
+    //folder names
+]
+
+}

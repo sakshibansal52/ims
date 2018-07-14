@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+         /*   div{
+                background-color: black
+            }
+            p{
+                display: inline;
+                background-color:yellow
+            }*/
+            div{
+                /* flex-direction:row 
+                     primary-axis: x=aaxis
+                     secondary-axis : yaxis
+                     */
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end; /*  on secondary*/
+                justify-content: stretch; /* works on primary always*/
+                height : 200px;
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <!--display 
+        block , none , inline, inline-block , flex-->
+            <div>
+        <p>
+            para1    
+        </p>
+        <p>
+                para12   
+            </p>
+            <p>
+                    para13   
+                </p>
+                </div>
+    </body>
+</html>
